@@ -85,22 +85,12 @@
     margin: 5%;
 }
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    z-index: 1000;
-}
 
 .container {
     background-color: rgb(243, 232, 212);
     width: auto;
     height: 90%;
-    padding: 2%;
+    padding: 1%;
     position: relative;
     margin-top: 3%;
     margin-left: 22%;
@@ -141,8 +131,13 @@ hr {
 
 .icon-animal:hover {
     transform: rotate(360deg);
+
 }
 
 .word{
-    
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    top: 0;
+    left: 0;
 }
