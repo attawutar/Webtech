@@ -9,6 +9,7 @@
 
 .logo {
     position: relative;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 48%;
@@ -88,6 +89,7 @@
 
 .container {
     background-color: rgb(243, 232, 212);
+    text-align: center;
     width: auto;
     height: 90%;
     padding: 1%;
