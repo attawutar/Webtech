@@ -13,7 +13,7 @@
     height: 90%;
     padding: 1%;
     position: relative;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: 22%;
     margin-right: 22%;
     -webkit-animation: fadein 3.5s;
@@ -26,15 +26,38 @@
     /* Opera < 12.1 */
     animation: fadein 3.5s;
 }
+
 img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
-.info{
+
+.info {
     font-size: 15px;
     font-family: 'Mitr', sans-serif;
 }
-h3{
+
+h3 {
     font-family: 'Mitr', sans-serif;
+}
+
+.dad {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+
+.pic {
+    width: 30%;
+    float: left;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 70%;
+    float: left;
+    position: relative;
 }
