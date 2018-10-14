@@ -61,3 +61,33 @@ h3 {
     float: left;
     position: relative;
 }
+ul {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Mitr', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    font-family: 'Mitr', sans-serif;
+}
+
+.active {
+    background-color: #4CAF50;
+}
