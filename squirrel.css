@@ -1,3 +1,7 @@
+body {
+    display: block;
+    margin: 0px;
+}
 .wall {
     background-image: url(pic/squirrelback.jpg);
     position: fixed;
@@ -68,6 +72,7 @@ ul {
     margin: 0;
     width: 100%;
     background-color: #333;
+    list-style-type: none;
 }
 
 li {

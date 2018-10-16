@@ -1,3 +1,7 @@
+body {
+    display: block;
+    margin: 0px;
+}
 .wall {
     background-image: url(pic/porcupineback.jpg);
     position: fixed;

@@ -7,6 +7,11 @@
     height: 100vh;
 }
 
+body{
+    display: block;
+    margin: 0px;
+}
+
 .logo {
     position: relative;
     text-align: center;
@@ -15,15 +20,15 @@
     width: 48%;
     margin-top: 3%;
     margin-bottom: 1%;
-    -webkit-animation: fadein 3s;
+    -webkit-animation: fadein 1s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s;
+    -moz-animation: fadein 1s;
     /* Firefox < 16 */
-    -ms-animation: fadein 3s;
+    -ms-animation: fadein 1s;
     /* Internet Explorer */
-    -o-animation: fadein 3s;
+    -o-animation: fadein 1s;
     /* Opera < 12.1 */
-    animation: fadein 3s;
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
@@ -80,7 +85,7 @@
     }
 }
 
-}
+
 
 .info {
     margin: 5%;
@@ -113,15 +118,15 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    -webkit-animation: fadein 5s;
+    -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s;
+    -moz-animation: fadein 2s;
     /* Firefox < 16 */
-    -ms-animation: fadein 5s;
+    -ms-animation: fadein 2s;
     /* Internet Explorer */
-    -o-animation: fadein 5s;
+    -o-animation: fadein 2s;
     /* Opera < 12.1 */
-    animation: fadein 5s;
+    animation: fadein 2s;
 
 }
 
