@@ -94,6 +94,7 @@
     height: auto;
     border-radius: 12px;
     position: absolute; 
+    z-index: 3;
 
 }
 
@@ -108,11 +109,13 @@
     width: 0;
     height: 100%;
     transition: .5s ease;
+    z-index: 3;
 }
 
 .container:hover .overlay {
     width: 100%;
     left: 0;
+    z-index: 3;
 }
 
 /* right side .overlay */
@@ -126,6 +129,7 @@
     height: auto;
     border-radius: 12px;
     position: absolute; 
+    z-index: 3;
 
 }
 
@@ -140,10 +144,12 @@
     width: 0;
     height: 100%;
     transition: .5s ease;
+    z-index: 3;
 }
 
 .container2:hover .overlay2 {
     width: 100%;
+    z-index: 3;
 
 }
 /* ______________________________ */
