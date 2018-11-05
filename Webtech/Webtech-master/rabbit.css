@@ -1,0 +1,93 @@
+.wall {
+    background-image: url(pic/rabbitback.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    background-color: rgb(118, 109, 126);
+    text-align: center;
+    width: auto;
+    height: 90%;
+    padding: 1%;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 22%;
+    margin-right: 22%;
+    -webkit-animation: fadein 3.5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3.5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 3.5s;
+    /* Internet Explorer */
+    -o-animation: fadein 3.5s;
+    /* Opera < 12.1 */
+    animation: fadein 3.5s;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+}
+
+h3 {
+    font-family: 'Mitr', sans-serif;
+}
+
+.dad {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+
+.pic {
+    width: 30%;
+    float: left;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 70%;
+    float: left;
+    position: relative;
+}
+ul {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Mitr', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    font-family: 'Mitr', sans-serif;
+}
+
+.active {
+    background-color: #4CAF50;
+}
